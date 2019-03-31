@@ -65,7 +65,7 @@ def count_contestants_by_hometown(data, hometown)
     contestants_arrays.each {|contestant|
       
       if contestant["hometown"] == hometown
-        i += 1
+        i = i + 1
         contestant["hometown"]
       end
       
