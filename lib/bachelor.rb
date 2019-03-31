@@ -60,8 +60,10 @@ end
 
 def count_contestants_by_hometown(data, hometown)
   
-  data.each {seasons, contestant_arrays|
-    contestants_arrays.each {   
+  data.each {|seasons, contestant_arrays|
+    contestants_arrays.each {|contestant|
+      contestant[]  
+    }
   }
   
 end
