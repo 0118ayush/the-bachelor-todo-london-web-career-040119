@@ -80,7 +80,7 @@ def get_average_age_for_season(data, season)
       contestants_arrays.each {|contestant|
         #contestant.each {|info_name, info|
           age = contestant["age"].to_i
-          #new_array.push(age)
+          new_array.push(age)
       #}
       #binding.pry
       average_age = new_array.sum / new_array.length 
