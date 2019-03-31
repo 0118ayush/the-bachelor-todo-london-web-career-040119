@@ -83,7 +83,7 @@ def get_average_age_for_season(data, season)
           new_array.push(age)
       }
       binding.pry
-      average_age = .sum / ages_array.length 
+      average_age = new_array.sum / new_array.length 
       return average_age.round
     }
   end
