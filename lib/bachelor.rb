@@ -68,7 +68,7 @@ def count_contestants_by_hometown(data, hometown)
         i += 1
         contestant["hometown"]
       end
-      binding.pry
+      
       return i
     }
   }
