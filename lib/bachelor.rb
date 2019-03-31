@@ -83,7 +83,7 @@ def get_average_age_for_season(data, season)
 
       }
      average_age = new_array.inject{ |sum, el| sum + el }.to_f / new_array.length
-     return average_age
+     return average_age.round
   end
   } 
 end
