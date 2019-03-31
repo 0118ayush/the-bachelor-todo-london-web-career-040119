@@ -67,10 +67,10 @@ def count_contestants_by_hometown(data, hometown)
       if contestant["hometown"] == hometown
         new_array.push(contestant["hometown"])
       end
-      binding.pry
+      
     }
   }
-  
+binding.pry  
 end
 
 
