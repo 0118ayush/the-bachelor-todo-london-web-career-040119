@@ -36,26 +36,6 @@ def get_contestant_name(data, occupation)
 end
 
 
-# def count_contestants_by_hometown(data, hometown)
-  
-#   new_array = []
-  
-#   data.each {|seasons, contestants_arrays|
-#     contestants_arrays.each {|contestant|
-#     #binding.pry
-#       contestant.each {|info_name, info|
-#         counter = 0
-#           loop do
-#             if contestant["hometown"] == hometown
-#             new_array.push(contestant)
-#             counter += 1
-#             end
-#           end 
-#       }
-#     }
-#   }
-#   return counter 
-# end
 
 
 def count_contestants_by_hometown(data, hometown)
@@ -67,7 +47,6 @@ def count_contestants_by_hometown(data, hometown)
       if contestant["hometown"] == hometown
         new_array.push(contestant["hometown"])
       end
-      
     }
   }
 new_array.length 
